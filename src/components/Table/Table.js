@@ -50,8 +50,8 @@ const Table = () => {
   };
 
   return (
-    <div>
-      <table>
+    <div id='table-container'>
+      <table id='table'>
         <caption>Products</caption>
         <thead>
           <tr>
