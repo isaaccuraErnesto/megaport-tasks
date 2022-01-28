@@ -52,7 +52,7 @@ const Table = () => {
   return (
     <div id='table-container'>
       <table id='table'>
-        <caption>Products</caption>
+        <caption id='table-caption'>Inventory</caption>
         <thead>
           <tr>
             {propertyNames.map((title, index) => {
