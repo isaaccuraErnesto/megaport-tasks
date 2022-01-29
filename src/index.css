@@ -18,16 +18,15 @@
 #header {
   width: fit-content;
   margin-inline: auto;
-  padding-block: 1em;
-  font-family: cursive;
+  padding-block: 1.5em;
   font-size: 2.5em;
   color: #ff6f61;
-  text-shadow: 2px 1px #e3e3e3;
+  text-shadow: 2px 1px #e3e3e3, 0px 0px 4px #363636;
 }
 
 #search-box-container {
   width: 100%;
-  padding-block-end: 2em;
+  padding-block-end: 3em;
 }
 
 #search-box {
@@ -35,17 +34,13 @@
   position: relative;
   width: 30%;
   margin-inline: auto;
-  padding-inline-start: 1.5em;
-  padding-block: 0.3em 0.1em;
+  padding-inline-start: 0.5em;
+  padding-block: 0.3em;
   font-size: 1.2em;
 }
 
-#search-box::after {
-  content: '&#x1F50E';
-  color: black;
-  display: inline-block;
-  position: absolute;
-  font-size: 2em;
+#search-box::placeholder {
+  opacity: 50%;
 }
 
 /* Table */
@@ -120,4 +115,73 @@ tbody tr td {
 
 tbody tr td:first-child {
   color: #ffd0cc;
+}
+
+/* Form */
+
+#form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: fit-content;
+  width: 600px;
+  margin-block-start: 4em;
+  padding-block-end: 1em;
+  background-color: #ffd0cc;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 3px #ff6f61;
+}
+
+#form-title {
+  font-size: 2.5em;
+  font-weight: 800;
+  color: #363636;
+  padding-block: 0.5em 1em;
+}
+
+.order-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  padding-block-end: 1.5em;
+  font-size: 1.2em;
+}
+
+.order-container label {
+  font-weight: 600;
+}
+
+.order-container input {
+  width: 400px;
+  padding-inline-start: 0.5em;
+  padding-block: 0.3em;
+  font-size: 1em;
+  border-radius: 5px;
+}
+
+.order-container:last-child {
+  justify-content: center;
+  padding-block-start: 1em;
+}
+
+#submit {
+  width: 90%;
+  background-color: #363636;
+  color: #c9c9c9;
+  padding-block: 0.5em;
+  transition: background-color 200ms ease-in-out;
+  transition: width 200ms ease-in-out;
+  font-weight: 600;
+}
+
+#submit:hover {
+  width: 92%;
+  background-color: #ff6f61;
+  color: #363636;
+}
+
+.hidden {
+  display: none;
 }
