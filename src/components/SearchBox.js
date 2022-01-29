@@ -8,6 +8,7 @@ const SearchBox = () => {
         id='search-box'
         name='search-box'
         placeholder='Search'
+        disabled
       />
     </div>
   );
