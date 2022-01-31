@@ -26,6 +26,10 @@
   text-shadow: 2px 1px #e3e3e3, 0px 0px 4px #363636;
 }
 
+#header h1 {
+  font-family: 'Leckerli One', cursive;
+}
+
 #search-box-container {
   width: 100%;
   padding-block-end: 3em;
@@ -59,6 +63,10 @@
   color: #e3e3e3;
 }
 
+#table > *:hover {
+  cursor: default;
+}
+
 #table-caption {
   background-color: #ff6f61;
   padding: 0.2em 0.5em;
@@ -76,6 +84,7 @@ thead th {
   text-align: left;
   padding: 0.3em 0.5em;
   position: relative;
+  user-select: none;
 }
 
 thead th.asc::after {
