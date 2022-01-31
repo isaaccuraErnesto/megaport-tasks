@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/megaport-tasks/static/css/main.83826f14.css",
+    "main.js": "/megaport-tasks/static/js/main.b45ef7c9.js",
+    "static/js/787.e8443419.chunk.js": "/megaport-tasks/static/js/787.e8443419.chunk.js",
+    "index.html": "/megaport-tasks/index.html",
+    "main.83826f14.css.map": "/megaport-tasks/static/css/main.83826f14.css.map",
+    "main.b45ef7c9.js.map": "/megaport-tasks/static/js/main.b45ef7c9.js.map",
+    "787.e8443419.chunk.js.map": "/megaport-tasks/static/js/787.e8443419.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.83826f14.css",
+    "static/js/main.b45ef7c9.js"
+  ]
+}
